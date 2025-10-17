@@ -1,4 +1,4 @@
-# 🔐 Firebase Authentication Integration — React Project
+# 🔐 Firebase Authentication Integration 
 
 A simple and clean authentication system built with **React + Firebase**, featuring Email/Password Sign-In, Google Login, and Private Routes.
 

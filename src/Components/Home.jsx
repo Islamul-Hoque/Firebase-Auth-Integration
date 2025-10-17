@@ -7,9 +7,12 @@ const Home = () => {
     // console.log(userinfo);
     
     return (
-        <div>
+        <>
+        <title>Firebase Authentication Integration - Home</title>
+        <div className='mx-auto text-center mt-5 font-bold text-[2rem]'>
             <h4>Home</h4>
         </div>
+        </>
     );
 };
 

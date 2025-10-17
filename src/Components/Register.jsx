@@ -1,8 +1,7 @@
 import React, { use } from 'react';
 import { Link, Links } from 'react-router';
 import { AuthContext } from '../Context/AuthContext/AuthContext';
-// import { auth } from '../Firebase/firebase.init';
-// import { createUserWithEmailAndPassword } from 'firebase/auth';
+
 
 const Register = () => {
     const { createUser } = use(AuthContext)
@@ -21,25 +20,9 @@ const Register = () => {
             })
     }
 
-    // const handleRegister = e => {
-    //     e.preventDefault()
-    //     const name = e.target.name.value
-    //     const email = e.target.email.value
-    //     const password = e.target.password.value
-    //     console.log(name, email, password);
-
-    //     createUserWithEmailAndPassword( auth, email, password )
-    //     .then(result => {
-    //         console.log(result.user);
-            
-    //     })
-    //     .catch(error => {
-    //         console.log(error.message );
-            
-    //     })
-    // }
-
     return (
+        <>
+        <title>Firebase Authentication Integration - Register</title>
         <div className="hero bg-base-200 min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -64,6 +47,7 @@ const Register = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

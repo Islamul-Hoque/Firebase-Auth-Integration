@@ -38,7 +38,10 @@ const Login = () => {
         
     }
     return (
+        <>
+        <title>Firebase Authentication Integration - Log in</title> 
         <div className="hero bg-base-200 min-h-screen">
+            <title>Firebase Authentication Integration - Log in</title>
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <h1 className="text-3xl text-center mt-4 font-bold">Login now!</h1>
@@ -64,6 +67,7 @@ const Login = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
