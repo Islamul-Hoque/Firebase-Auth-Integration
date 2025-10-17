@@ -1,16 +1,58 @@
-# React + Vite
+# 🔐 Firebase Authentication Integration — React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean authentication system built with **React + Firebase**, featuring Email/Password Sign-In, Google Login, and Private Routes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ User Registration with Email and Password  
+✅ User Login with Email and Password  
+✅ Google Authentication using Firebase  
+✅ Persistent User State with `onAuthStateChanged()`  
+✅ Private Routes (protected pages)  
+✅ Logout Functionality  
+✅ Context API for global Auth state management  
+✅ Responsive UI with DaisyUI + TailwindCSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+|-------------|----------|
+| **React.js** | Frontend Framework |
+| **Firebase Auth** | Authentication Backend |
+| **React Router** | Navigation and Private Routes |
+| **Tailwind CSS + DaisyUI** | UI Styling |
+| **Context API** | Global State Management |
+
+---
+
+## ⚙️ Project Setup
+```bash
+# Step 1: Clone the repo
+git clone https://github.com/Islamul-Hoque/Firebase-Auth-Integration
+
+# Step 2: Navigate
+cd Firebase-Auth-Integration
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Run project
+npm run dev 
+```
+
+
+## 🧾 License
+
+This project is open-source and free to use for learning or development.
+
+## 💬 Author
+
+👨‍💻 Developed by: Islamul Hoque  
+📧 Email: islamulhoque2006@email.com  
+🌐 GitHub: https://github.com/Islamul-Hoque  
+
+
